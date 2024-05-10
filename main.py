@@ -34,9 +34,9 @@ def update_screen(agent):
         # If captcha detected, send alert and exit
         if max_val >= 0.7:
             print("Captcha detected!")
-            bot_token = '7074732815:AAF02TzERJ8hD9HYXBwVT2jFyqVr4bMW0UI'
+            bot_token = 'YOUR_BOT_TOKEN'
             bot = telebot.TeleBot(token=bot_token)
-            chat_id = '1247823230'
+            chat_id = 'YOUR_CHAT_ID'
             bot.send_message(chat_id=chat_id, text='Captcha detected!')
             sys.exit("Captcha detected! Exiting...")
 
