@@ -84,6 +84,7 @@ if __name__ == "__main__":
             print_menu()
 
     print("Exiting...")
+
 def update_screen(agent):
 
     while True:
